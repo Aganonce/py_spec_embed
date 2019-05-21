@@ -37,4 +37,4 @@ pos = nx.spring_layout(G)
 draw_graph(G, pos, fname, labels, weighted=True)
 
 # Embeds G, plots and saves results
-spectral_embedder_v4(G, fname, directed=nx.is_directed(G), weighted=True, plot=True, symmetric=False)
+spectral_embedder(G, fname, directed=nx.is_directed(G), weighted=True, plot=True, symmetric=False)
